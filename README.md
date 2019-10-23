@@ -8,7 +8,7 @@ This is to demo how to authenticate against GitHub with OAuth2.
 
 2) Upon successful authentication, GitHub redirects to the servlet - OauthClientServlet with a "code".
 
-3) The servlet makes a post to GitHub with the "code" and our identity.
+3) The servlet makes a HTTP post to GitHub with the "code" and our identity.
 
 4) GitHub returns with a "token".
 
